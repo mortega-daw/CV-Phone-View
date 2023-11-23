@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/2bf557c0ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Curriculum</title>
+  </head>
+  <body>
+  <div id="header"></div>
+  <div id="nav"></div>
+  <div class="modal fade" id="portfolioModal" tabindex="-1" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content p-4">
+        <i class="close-icon fa-solid fa-xmark d-flex justify-content-center" data-bs-dismiss="modal"></i>
+        <div class="text-center">
+          <hr class="hr-text" data-content="Portfolio" />
+        </div>
+        <ul class="nav justify-content-center pb-3">
+          <li class="nav-item">
+            <a class="nav-link nav-portfolio" href="#" data-target="section1">Apps</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-portfolio" href="#" data-target="section2">Webs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-portfolio" href="#" data-target="section3">Design</a>
+          </li>
+        </ul>
+        <div id="section1" class="portfolio-section">
+          <div class="row justify-content-center text-center">
+            <div class="col-6 col-md-4">
+              <img class="img-apps mb-2" alt="photo-app" src="img/mariia-shalabaieva-0nC8qMxM3Oo-unsplash.jpg"/>
+              <h6 class="text-center fw-bold text-muted">Linkedin</h6>
+              <p>Online professional network.</p>
+            </div>
+            <div class="col-6 col-md-4">
+              <img class="img-apps mb-2" alt="photo-app" src="img/mariia-shalabaieva-eQsuFl7jNRA-unsplash.jpg"/>
+              <h6 class="text-center fw-bold text-muted">Messenger</h6>
+              <p>Source of music and entertainment.</p>
+            </div>
+            <div class="col-6 col-md-4">
+              <img class="img-apps mb-2" alt="photo-app" src="img/mariia-shalabaieva-JkZg8c61BoU-unsplash.jpg"/>
+              <h6 class="text-center fw-bold text-muted">Notion</h6>
+              <p>Versatile productivity application.</p>
+            </div>
+            <div class="col-6 col-md-4">
+              <img class="img-apps mb-2" alt="photo-app" src="img/mariia-shalabaieva-QnKXZ63JE4I-unsplash.jpg"/>
+              <h6 class="text-center fw-bold text-muted">ITunes</h6>
+              <p>Media management application.</p>
+            </div>
+            <div class="col-6 col-md-4">
+              <img class="img-apps mb-2" alt="photo-app" src="img/mariia-shalabaieva-fluoEjpdj60-unsplash.jpg"/>
+              <h6 class="text-center fw-bold text-muted">ChatGPT</h6>
+              <p>Artificial intelligence language model.</p>
+            </div>
+            <div class="col-6 col-md-4">
+              <img class="img-apps mb-2" alt="photo-app" src="img/mariia-shalabaieva-jtRkbtUHsps-unsplash.jpg"/>
+              <h6 class="text-center fw-bold text-muted">Discord</h6>
+              <p>Online communication platform.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="section2" class="portfolio-section">
+          <div class="row justify-content-center text-center">
+            <div class="col-6 col-md-4">
+              <img id="image" class="img-apps mb-2" alt="photo-app" src="img/webs-portfolio-1.jpg"/>
+              <h6 class="text-center fw-bold text-muted">www.dance.com</h6>
+              <p>Website for a dance club</p>
+            </div>
+            <div class="col-6 col-md-4">
+              <img  class="img-apps mb-2" alt="photo-app" src="img/webs-portfolio-2.jpg"/>
+              <h6 class="text-center fw-bold text-muted">www.walk.com</h6>
+              <p>Website for a walk club</p>
+            </div>
+            <div class="col-6 col-md-4">
+              <img class="img-apps mb-2" alt="photo-app" src="img/webs-portfolio-3.jpg"/>
+              <h6 class="text-center fw-bold text-muted">www.run.com</h6>
+              <p>Website for a run club</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="section3" class="portfolio-section">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-12">
+              <img id="image" class="img-apps mb-2" alt="photo-app" src="img/evolucion-logo-starbucks.png"/>
+              <h5 class="text-center fw-bold text-muted">StarBucks</h5>
+              <p class="text-center">
+                Worldwide coffeehouse chain known for coffee, teas, and food.
+              </p>
+            </div>
+            <div class="col-12 col-md-12">
+              <img id="image" class="img-apps mb-2 mt-5" alt="photo-app" src="img/Levis-scalable-1024x252.png"/>
+              <h5 class="text-center fw-bold text-muted">Levis</h5>
+              <p class="text-center">
+                Levi's commitment to classic designs and durability has made
+                it a symbol of timeless American style.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div id="modals"></div>
+    <div class="social-media p-3 social-icons d-flex align-items-center" id="socials"></div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
